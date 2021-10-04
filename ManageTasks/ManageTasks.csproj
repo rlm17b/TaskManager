@@ -8,4 +8,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Library.ManageTasks\Library.ManageTasks.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
 </Project>
